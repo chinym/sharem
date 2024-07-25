@@ -1,0 +1,212 @@
+{
+  "spider": "https://raw.gitmirror.com/chinym/sharem/main/m//spider.jar;md5;bb73f999b93ea20a6f3d00b0b737ce51",
+  "sites": [
+    {
+      "key": "Douban",
+      "name": "豆瓣|首页",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": {}
+    },
+    {
+      "key": "BD",
+      "name": "BD|首页",
+      "type": 3,
+      "api": "csp_BD",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": "aHR0cHM6Ly93d3cueWp5czAyLmNvbS8="
+    },
+    {
+      "key": "NCat",
+      "name": "网飞猫 | 影视",
+      "type": 3,
+      "api": "csp_NCat",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {}
+    },
+    {
+      "key": "NN",
+      "name": "泥巴|首页",
+      "type": 3,
+      "api": "csp_NiNi",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "NG",
+      "name": "瓜瓜",
+      "type": 3,
+      "api": "csp_NG",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "bili",
+      "name": "哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "json": "https://gh-proxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/json/bili.json",
+        "type": "帕梅拉#太极拳#广场舞#演唱会",
+        "cookie": ""
+      }
+    },
+    {
+      "key": "Liangzi",
+      "name": "量子影视",
+      "type": 3,
+      "api": "csp_Liangzi",
+      "searchable": "1",
+      "filterable": "0",
+      "changeable": 0,
+      "ext": {}
+    },
+    {
+      "key": "ChangZhang",
+      "name": "厂长影视",
+      "type": 3,
+      "api": "csp_ChangZhang",
+      "searchable": "1",
+      "filterable": "0",
+      "changeable": 0,
+      "ext": {}
+    },
+    {
+      "key": "Zxzj",
+      "name": "在线之家",
+      "type": 3,
+      "api": "csp_Zxzj",
+      "searchable": "1",
+      "filterable": "0",
+      "changeable": 0,
+      "ext": {}
+    },
+    {
+      "key": "Mtyy",
+      "name": "麦田影院",
+      "type": 3,
+      "api": "csp_Mtyy",
+      "searchable": "1",
+      "filterable": "0",
+      "changeable": 0,
+      "ext": {}
+    },
+    {
+      "key": "Ikanbot",
+      "name": "爱看机器人",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": "1",
+      "filterable": "0",
+      "changeable": 0,
+      "ext": {}
+    },
+    {
+      "key": "JustLive",
+      "name": "JustLive | 直播",
+      "type": 3,
+      "api": "csp_JustLive",
+      "searchable": 1,
+      "filterable": 1
+    },
+    {
+      "key": "DaGongRen",
+      "name": "打工人",
+      "type": 3,
+      "api": "csp_DaGongRen",
+      "searchable": "1",
+      "filterable": "0",
+      "changeable": 0,
+      "ext": {}
+    },
+    {
+      "key": "WuMingMusic",
+      "name": "无名音乐",
+      "type": 3,
+      "api": "csp_WuMingMusic",
+      "searchable": "1",
+      "filterable": "0",
+      "changeable": 0,
+      "ext": {}
+    },
+    {
+      "key": "玩偶",
+      "name": "玩偶",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "csp_AList",
+      "name": "AList┃网盘",
+      "type": "3",
+      "api": "csp_AList",
+      "searchable": "0",
+      "filterable": "1",
+      "changeable": 0,
+      "ext": "./alist.json"
+    },
+    {
+      "key": "PanSou",
+      "name": "盘搜┃搜索",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "PanSearch",
+      "name": "PanSearch┃搜索",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "changeable": 1,
+      "timeout": 30
+    },
+    {
+      "key": "YiSo",
+      "name": "易搜┃搜索",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd",
+      "timeout": 30
+    },
+    {
+      "key": "找資源",
+      "name": "找資源",
+      "type": 3,
+      "api": "csp_Zhaozy",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "$$$fanty$$$qqq111"
+    },
+    {
+      "key": "Yingso",
+      "name": "影搜",
+      "type": 3,
+      "api": "csp_Yingso",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "yppan",
+      "name": "云盘盘",
+      "type": 3,
+      "api": "csp_YpPan",
+      "searchable": 1,
+      "changeable": 1
+    }
+  ]
+}
